@@ -6,11 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
+        <module name="config-service" />
         <module name="eureka-service" />
+        <module name="miro" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.8" />
+      <module name="config-service" target="1.8" />
       <module name="eureka-service" target="1.8" />
+      <module name="miro" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
