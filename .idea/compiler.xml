@@ -12,6 +12,7 @@
         <module name="miro" />
         <module name="service-a" />
         <module name="service-b" />
+        <module name="serviceaapi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="miro" target="1.8" />
       <module name="service-a" target="1.8" />
       <module name="service-b" target="1.8" />
+      <module name="serviceaapi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
